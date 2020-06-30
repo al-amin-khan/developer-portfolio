@@ -9,7 +9,7 @@ h1{
   font-size: 50px;
 }
 
-.name-highlight{
+.orange-highlight{
   color: orange;
 }
 
@@ -31,10 +31,39 @@ h1{
   border-radius: 10px;
   font-weight: 700;
   background-image: linear-gradient(45deg, darksalmon, tomato);
+  paddin
 }
 
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
+}
+
+.experience-section{
+  background-image: url("../images/exp-bg.png");
+  background-position: left;
+  background-repeat: no-repeat;
+
+}
+
+#vertical-line{
+  border-left: 7px solid blue;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+
+#vertical-line-2{
+  border-left: 7px solid blue;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+
+
+.card-shadow{
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 5px;
+  height: 80%;
+  width: 33%;
+  margin: 3%;
 }
