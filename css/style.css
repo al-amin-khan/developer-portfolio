@@ -40,6 +40,17 @@ h1{
   display: table;
 }
 
+.top-section{
+  background-image: url("../images/top-banner.png");
+  background-repeat: no-repeat;
+}
+
+.middle-section{
+  background-image: url("../images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .experience-section{
   background-image: url("../images/exp-bg.png");
   background-position: left;
